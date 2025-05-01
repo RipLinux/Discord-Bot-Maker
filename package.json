@@ -1,7 +1,7 @@
 {
   "name": "discord-js-handler-template",
   "version": "1.0.0",
-  "description": "Discord.js Command and Event Handler Template with example Command usages! For Questions: https://discord.gg/fS6qBSm",
+  "description": "Discord.js Command and Event Handler Template with example Command usages! For Questions: havarhost@gmail.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
