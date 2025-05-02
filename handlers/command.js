@@ -2,7 +2,7 @@ const { readdirSync } = require("fs");
 const ascii = require("ascii-table");
 let table = new ascii("Commands");
 table.setHeading("Command", "Load status");
-console.log("Welcome to SERVICE HANDLER /--/ By https://milrato.eu /--/ Discord: Tomato#6966".yellow);
+console.log("Welcome to SERVICE HANDLER /--/ By https://riplinux.rf.gd  RipLinux".black);
 module.exports = (client) => {
   try{
     readdirSync("./commands/").forEach((dir) => {
@@ -24,12 +24,3 @@ module.exports = (client) => {
     console.log(String(e.stack).bgRed)
   }
 };
-/**
-  * @INFO
-  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/Discord-Js-Handler-Template
-  * @INFO
-  * Work for Milrato Development | https://milrato.eu
-  * @INFO
-  * Please mention Him / Milrato Development, when using this Code!
-  * @INFO
-*/

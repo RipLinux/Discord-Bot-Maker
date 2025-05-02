@@ -29,9 +29,9 @@ module.exports = async (client) => {
       console.log(`     ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓`.bold.brightGreen)
       console.log(`     ┃ `.bold.brightGreen + " ".repeat(-1+stringlength-` ┃ `.length)+ "┃".bold.brightGreen)
       console.log(`     ┃ `.bold.brightGreen + `Welcome to SERVICE HANDLER!`.bold.brightGreen + " ".repeat(-1+stringlength-` ┃ `.length-`Welcome to SERVICE HANDLER!`.length)+ "┃".bold.brightGreen)
-      console.log(`     ┃ `.bold.brightGreen + `  /-/ By https://milrato.eu /-/`.bold.brightGreen + " ".repeat(-1+stringlength-` ┃ `.length-`  /-/ By https://milrato.eu /-/`.length)+ "┃".bold.brightGreen)
+      console.log(`     ┃ `.bold.brightGreen + `  /-/ By https://riplinux.rf.gd /-/`.bold.brightGreen + " ".repeat(-1+stringlength-` ┃ `.length-`  /-/ By https://riplinux.rf.gd /-/`.length)+ "┃".bold.brightGreen)
       console.log(`     ┃ `.bold.brightGreen + " ".repeat(-1+stringlength-` ┃ `.length)+ "┃".bold.brightGreen)
-      console.log(`     ┃ `.bold.brightGreen + `  /-/ Discord: Tomato#6966 /-/`.bold.brightGreen + " ".repeat(-1+stringlength-` ┃ `.length-`  /-/ By Discord: Tomato#6966 /-/`.length)+ "   ┃".bold.brightGreen)
+      console.log(`     ┃ `.bold.brightGreen + `  /-/ By: Riplinux /-/`.bold.brightGreen + " ".repeat(-1+stringlength-` ┃ `.length-`  /-/ By : RipLinux /-/`.length)+ "   ┃".bold.brightGreen)
       console.log(`     ┃ `.bold.brightGreen + " ".repeat(-1+stringlength-` ┃ `.length)+ "┃".bold.brightGreen)
       console.log(`     ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛`.bold.brightGreen)
     }catch{ /* */ }
@@ -48,12 +48,3 @@ module.exports = async (client) => {
     console.log(String(e.stack).bgRed)
   }
 };
-/**
-  * @INFO
-  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/Discord-Js-Handler-Template
-  * @INFO
-  * Work for Milrato Development | https://milrato.eu
-  * @INFO
-  * Please mention Him / Milrato Development, when using this Code!
-  * @INFO
-*/
